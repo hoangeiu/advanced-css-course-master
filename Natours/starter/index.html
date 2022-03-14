@@ -12,7 +12,52 @@
 
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
+
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="" class="navigation__link">
+              <span>01</span>
+              About Natours
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">
+              <span>02</span>
+              Your benifits
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">
+              <span>03</span>
+              Popular tours
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">
+              <span>04</span>
+              Stories
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">
+              <span>05</span>
+              Book now
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header class="header">
       <div class="header__logo-box">
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
@@ -23,7 +68,7 @@
           <span class="heading-primary--main">Outdoors</span>
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
       </div>
     </header>
 
@@ -104,7 +149,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most popular tours</h2>
         </div>
@@ -133,7 +178,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$297</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -163,7 +208,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">$497</p>
                     </div>
-                    <a href="#" class="btn btn--white">Book now!</a>
+                    <a href="#popup" class="btn btn--white">Book now!</a>
                   </div>
                 </div>
               </div>
@@ -194,7 +239,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">$897</p>
                     </div>
-                    <a href="#" class="btn btn--white">Book now!</a>
+                    <a href="#popup" class="btn btn--white">Book now!</a>
                   </div>
                 </div>
               </div>
@@ -303,6 +348,61 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built my <a href="#" class="footer__link">Hoang Minh Le</a> for his online courses. Copyright &copy; by
+            Hoang Minh Le. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to
+            claim it as your own design. A credit to the original author, Hoang Minh Le, is of course highly
+            appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deleniti laudantium quidem aliquid ab quae
+            fuga fugit cumque. Obcaecati id ullam modi. Beatae minus facere eligendi repellat! Adipisci sunt porro neque
+            optio voluptates molestias error dolore perferendis soluta animi! Sequi ullam, qui atque dolores, suscipit
+            minus eos cum doloribus voluptatum rem at aut obcaecati tempora nesciunt eligendi debitis sunt nisi tempore
+            quos exercitationem eum? Harum iusto minima praesentium explicabo, repellat exercitationem eum ex expedita
+            aperiam sit ducimus quos soluta officiis ut quo. Itaque quibusdam veritatis excepturi nisi expedita quasi
+            nostrum provident voluptatibus officia aperiam impedit in consequuntur ratione minima accusamus et
+            doloremque praesentium, vel, iste quaerat accusantium temporibus totam repellendus velit? Inventore
+            voluptate quod quo?
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
     <!-- <section class="grid-test">
       <div class="row">
         <div class="col-1-of-2">Col 1 of 2</div>
