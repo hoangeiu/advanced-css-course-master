@@ -2,6 +2,8 @@ Based on the Udemy course **Advanced CSS and Sass: Flexbox, Grid, Animations and
 
 ### There are 3 projects with many beautiful css inside. Let check it out.
 
+![Natours](https://i.ibb.co/cy6sHwv/natours.png)
+
 [Udemy](https://www.udemy.com/course/advanced-css-and-sass/)
 [Trello(private)](https://trello.com/b/2UVmVJuv/iadvanced-css-and-sass-flexbox-grid-animations-and-more) 39h00
 
