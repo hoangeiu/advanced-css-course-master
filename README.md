@@ -1,5 +1,5 @@
 Based on the Udemy course **Advanced CSS and Sass: Flexbox, Grid, Animations and More!**, I study many advanced CSS skills: Flexbox, Grid, and mores.
-###### There are 3 projects with many beautiful css inside. Let check it out.
+### There are 3 projects with many beautiful css inside. Let check it out.
 
 **This course is massive, coming in at 28+ hours. Here is exactly what you will learn:**
 
