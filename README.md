@@ -4,7 +4,7 @@ Based on the Udemy course **Advanced CSS and Sass: Flexbox, Grid, Animations and
 
 ![Natours](https://i.ibb.co/cy6sHwv/natours.png)
 
-<img src="https://i.ibb.co/cy6sHwv/natours.png" width="100" height="100">
+<img src="https://i.ibb.co/cy6sHwv/natours.png" width="500">
 
 [Udemy](https://www.udemy.com/course/advanced-css-and-sass/)
 [Trello(private)](https://trello.com/b/2UVmVJuv/iadvanced-css-and-sass-flexbox-grid-animations-and-more) 39h00
